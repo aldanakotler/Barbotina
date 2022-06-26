@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbotina</title>
+    <link rel="shortcut icon" href="../image/favicon.ico">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <div id="portadaContacto">
+      <header>
+        <nav>
+          <div id="menu">
+            <ul>
+              <li> <a href="../pages/index.html"> Home</a> </li>
+              <li> <a href="../pages/nosotros.html"> Nosotros</a> </li>
+              <li> <a href="../pages/galeria.html"> Galería</a> </li>
+              <li> <a href="../pages/productos.html"> Productos</a> </li>
+              <li> <a href="../pages/contacto.html"> Contacto</a> </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <p class="textoSobrePortada">Queremos escucharte</p>
+    </div>
+    
+    
+    <main>
+      <div id="contacto">
+        <h1>Contactate con nosotros</h1>
+        <p>En Barbotina estamos muy contentos de poder ayudarte.<br>
+          Seleccioná el motivo de tu consulta y en breve nos estaremos comunicando con vos.
+        </p>
+      </div>
+      
+      <div class="formulario">
+        <form action="gracias.html" method="get">
+          <div class="form-row">
+            <div class="form">
+              <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+            
+            <div class="form">
+              <input type="text" class="form-control" placeholder="Apellido">
+            </div>
+          </div>
+          
+          <br>
+          
+          <div class="form">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+          </div>
+          
+          <div class="form-selected">
+            <select class="custom-select">
+              <option selected="">Seleccionar motivos</option>
+              <option value="1">Problemas con la compra</option>
+              <option value="2">Franquicias</option>
+              <option value="3">Otras consultas</option>
+            </select>
+          </div>
+          
+          <div class="form">
+            <textarea class="coment" id="coment" rows="10" cols="120"></textarea>
+          </div>
+          
+          <div class="form">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label class="custom-control-label" for="customCheck1">Subscribirse al newsletter</label>
+          </div>
+          
+          <input class="boton" type="submit" value="Enviar">
+        </form>
+      </div>
+    </main>
+    
+    <footer id="footer">Seguinos en nuestras redes</footer>
+  </body>
+  </html>
+

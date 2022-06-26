@@ -1,0 +1,631 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+
+    background-color: beige;
+    width: 100%;
+    
+
+}
+
+
+#menu ul {
+background-color: black;
+list-style-type: none;
+   text-align: right;
+   
+}
+
+
+#menu li{
+    display: inline-block;
+    margin: 0;
+    
+ }
+
+ #menu li a {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: right;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    width: 100%;
+    
+
+ }
+
+ .contenedorTotal{
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+    
+ }
+
+ #portadaHome {
+
+    background-image: url(../image/portada-home.jpg);
+    height: 38rem;
+    max-width: 100%;
+    
+
+ }
+
+ #portadaNos {
+
+    background-image: url(../image/portada-nosotros.jpg);
+    height: 38rem;
+    max-width: 100%;
+    
+
+ }
+
+ #portadaGaleria {
+    
+    background-image: url(../image/portada-galeria.jpg);
+    height: 38rem;
+    max-width: 100%;
+
+ }
+
+ #portadaProductos {
+    background-image: url(../image/portada-productos.jpg);
+    height: 38rem;
+    max-width: 100%;
+
+ }
+
+ #portadaContacto {
+    background-image: url(../image/portada-contacto.jpg);
+    height: 38rem;
+    max-width: 100%;
+
+ }
+
+ 
+
+
+.textoSobrePortada {
+    position: absolute;
+    top: 15rem;
+    left: 0;
+    right: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 250%;
+    font-weight: 600;
+    color: bisque;
+    text-align: center;
+    
+    }
+
+    .titleProducto {
+        text-align: center;
+        padding-top: 50px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        
+        
+    
+    }
+
+    .centerTextContacto {
+        text-align: center;
+        padding: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: x-large;
+        
+        
+    }
+        
+    
+    .centerTextGaleria {
+        text-align: center;
+        padding: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: x-large;
+        
+        
+    }
+
+    
+
+    form fieldset {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+         Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: large;
+         text-align: justify;
+         font-style: italic;;
+         padding: 40px;
+         border-radius: 10px;
+         border-color: grey;
+         margin-left: 500px;
+         margin-right: 500px;
+         margin-top: 30px;
+         margin-bottom: 30px;
+         
+    }
+    
+.form {
+    margin: 10px;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: medium;
+     border-radius: 5px;
+     border-color: grey;
+     
+}
+
+#boton {
+    background-color: beige;
+    border-radius: 10px;
+    border-color: grey;
+    
+
+}
+
+.imgCentrada {
+
+    width: 40%;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    
+
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+        
+    }
+
+    .contenedorGaleria {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        width: 80%;
+        height: 100%;
+        margin: 10%;
+        margin-top: 3%;
+        
+        
+            
+        }
+
+        .galeria {
+            text-align: center;
+        }
+
+        .taller{
+            width: 33%;
+        }
+
+        
+
+#imgLeft {
+    
+    width: 100%;
+    margin: 8% 7% 5% 3%;
+    justify-items: center;
+    
+
+}
+
+.imgLeftNosotros {
+    height: 600px;
+    width: auto;
+    margin: 60px 20px 60px 20px;
+    
+}
+
+#parrafoHome {
+        
+width: 100%;
+justify-items: center;
+margin: 8% 7% 5% 3%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: x-large;
+padding-top: 10%;
+        
+
+}
+
+
+
+#parrafoHome a {
+   width: 9rem;
+   color: white ;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+   Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: medium;
+   background-color: burlywood ;
+   padding: 0.3rem;
+   border-radius: 0.5rem;
+   display: inline-block;
+   position: relative;
+   top: 5%;
+   left: 50%;
+   transform: translateX(-50%);
+   text-align: center;
+   text-decoration: none;
+   margin: 1rem;
+     
+    
+}
+
+.contenedorProducto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+
+.prod {
+    border-radius: 10px;
+    width: 300px;
+}
+
+.taller {
+    width: 100%;
+}
+
+.textProd {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    margin: 25px;
+}
+
+.titleProd {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    
+}
+
+.titleGaleria {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.titleContacto {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+    
+
+.parrafoNosotros {
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    padding-top: 200px;
+    padding-left: 50px;
+   
+}
+
+.parrafoProductos {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    margin: 0px 40px 25px 90px;
+
+}
+    
+
+ 
+
+
+
+#footer {
+    background-color: black;
+    color: bisque;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: x-large;
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     margin-top: 30px;
+     width: 100%;
+
+}
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        justify-items: center;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .caja {
+        text-align: center;
+        padding: 10px;
+        
+    }
+
+    .c2 {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: large;
+        padding-top: 200px;
+        
+
+        
+
+    }
+
+    .c4 {
+
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: large;
+        padding-top: 200px;
+        
+    }
+
+    .c6 {
+        
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: large;
+        padding-top: 200px;
+        
+    }
+
+    #contacto {
+        margin: 6rem 10% 0rem 10%;
+    }
+
+    #contacto h1 {
+        text-align: center;
+        margin: 1rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+         Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #contacto p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+         Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 1.2rem;
+        text-align: center;
+
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .formulario form {
+        width: 60%;
+        margin: 2rem 20%;
+        text-align: center;
+    }
+
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+
+
+
+
+    .form-row>.form, .form-row>[class*=col-] {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .form {
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .custom-select {
+        display: inline-block;
+        width: 100%;
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        vertical-align: middle;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+
+    }
+
+    select {
+        word-wrap: normal;
+    }
+
+    textarea {
+        overflow: auto;
+        resize: vertical;
+    }
+
+    .custom-control {
+        position: relative;
+        z-index: 1;
+        display: block;
+        min-height: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .custom-control-input {
+        position: absolute;
+        left: 0;
+        width: 1rem;
+        height: 1.25rem;
+        
+    }
+
+    .boton {
+        background-color: tan;
+        
+        border: none;
+        width: 90px;
+        height: 50px;
+
+    }
+
+    
+
+@media screen and (max-width: 800px){
+    #contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+    }
+
+    .contenedorProducto {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        margin: 10%;
+    }
+
+    .prod {
+        width: 80%;
+    }
+
+    .contenedorGaleria {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        
+        
+            
+        }
+
+        .taller{
+            width: 100%;
+        }
+
+        .titleProducto{
+            margin: 10% 10% 5% 10%;
+            text-align: center;
+        }
+
+        .grid{
+            width: 80%;
+            text-align: center;
+
+        }
+
+        .caja{
+            width: 100%;
+        }
+
+        .c1 {
+            grid-column: 1/4;
+            
+        }
+
+        .c2 {
+            grid-column: 1/4;
+            padding:15px;
+        }
+
+        .c3 {
+            grid-column: 1/4;
+        }
+        .c4{
+            grid-column: 1/4;
+            padding: 15px;
+        }
+        .c6{
+            grid-column: 1/4;
+            padding: 15px;
+        }
+        .c5{
+            grid-column: 1/4;
+        }
+
+        .formulario form {
+            width: 90%;
+            margin: 2rem 5%;
+        }
+}
+
+
+    @media screen and (max-width: 1200px){
+
+    .formulario {
+        width: 80%;
+        text-align: center;
+    }
+
+    .coment {
+        width: 50%;
+    }
+
+    }
+
+
+@media screen and (max-width: 1500px){
+    .prod {
+        width: 100%;
+    }
+}
